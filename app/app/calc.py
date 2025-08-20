@@ -1,6 +1,7 @@
-""" 
-Calculator functions 
 """
+Calculator functions
+"""
+
 
 def add(x: int, y: int) -> int:
     """
@@ -16,6 +17,7 @@ def add(x: int, y: int) -> int:
 
     return x + y
 
+
 def add_strings(s1: str, s2: str) -> str:
     """
     Concatenate two strings.
@@ -23,7 +25,7 @@ def add_strings(s1: str, s2: str) -> str:
         s1 (str): The first string.
         s2 (str): The second string.
     Returns:
-        str: The concatenation of s1 and s2. 
+        str: The concatenation of s1 and s2.
     """
     if not isinstance(s1, str) or not isinstance(s2, str):
         raise TypeError("Both s1 and s2 must be strings.")
